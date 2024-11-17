@@ -11,6 +11,6 @@
 
 ## info en instructies
 
-Info en instructies vind je op <a href="https://github.com/fdnd-task/css-challenges/blob/main/docs/challenge_typografie.md" target="_blank" rel="noopener noreferrer">Letters en kleuren</a> 
+Info en instructies vind je op <a href="https://github.com/fdnd-task/css-challenges/blob/main/docs/challenge_typografie.md" target="_blank" rel="noopener noreferrer">Letters en kleuren challenge</a> 
 
 
