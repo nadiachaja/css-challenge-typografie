@@ -1,36 +1,16 @@
-> _Fork_ deze leertaak en ga aan de slag.
-> De instructie vind je in: [INSTRUCTIONS](https://github.com/fdnd-task/url-naar-online-instructions)
+> _Fork_ deze deeltaak en ga aan de slag.
 
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+# CSS challenge - typografie
 
-## Inhoudsopgave
+## 3 opdrachten
 
-  * [Beschrijving](#beschrijving)
-  * [Gebruik](#gebruik)
-  * [Kenmerken](#kenmerken)
-  * [Installatie](#installatie)
-  * [Bronnen](#bronnen)
-  * [Licentie](#licentie)
+  * opdracht 1: font en font-properties
+  * opdracht 2: mini-posters
+  * opdracht 3: variabele fonts
 
-## Beschrijving
-<!-- Bij Beschrijving staat kort beschreven wat voor project het is en wat je hebt gemaakt -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+## info en instructies
 
-## Gebruik
-<!- Bij Gebruik staat de user story, hoe het werkt en wat je er mee kan. -->
+Info en instructies vind je op <a href="https://github.com/fdnd-task/css-challenges/blob/main/docs/challenge_typografie.md" target="_blank" rel="noopener noreferrer">Letters en kleuren</a> 
 
-## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? Misschien heb je iets met NodeJS gedaan, of heb je een framwork of library gebruikt? -->
-
-## Installatie
-<!-- Bij Instalatie staat hoe een andere developer aan jouw repo kan werken -->
-
-## Bronnen
-
-## Licentie
-
-This project is licensed under the terms of the [MIT license](./LICENCE).
 

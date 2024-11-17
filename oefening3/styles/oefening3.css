@@ -1,0 +1,211 @@
+/**********/
+/* COLORS */
+/**********/
+
+:root {
+  --wit:#fff;
+  --rood:#DC143C;
+  --groen:#5a8b2d; 
+}
+
+
+
+
+
+/***************/
+/* BLACK WHITE */
+/***************/
+
+li:nth-of-type(1) {
+  /* JOUW CODE HIER */
+  
+  
+}
+
+
+/* beide spans */
+li:nth-of-type(1) span {
+  /* JOUW CODE HIER */
+  
+  
+}
+
+
+/* eerste span */
+li:nth-of-type(1) span:nth-of-type(1) {
+  /* JOUW CODE HIER */
+  
+  
+}
+
+
+/* tweede span */
+li:nth-of-type(1) span:nth-of-type(2) {
+  /* JOUW CODE HIER */
+  
+  
+}
+
+
+
+
+
+/**************/
+/* BINGO CARD */
+/**************/
+
+li:nth-of-type(2) {
+  /* JOUW CODE HIER */
+  
+  
+}
+
+
+/* alle spans */
+li:nth-of-type(2) span {
+  /* JOUW CODE HIER */
+  
+  
+}
+
+
+/* span 1 t/m 9 */
+li:nth-of-type(2) span:nth-of-type(1) { 
+   /* JOUW CODE HIER */
+  
+}
+li:nth-of-type(2) span:nth-of-type(2) { 
+  /* JOUW CODE HIER */
+  
+}
+li:nth-of-type(2) span:nth-of-type(3) { 
+  /* JOUW CODE HIER */
+  
+}
+li:nth-of-type(2) span:nth-of-type(4) { 
+  /* JOUW CODE HIER */
+  
+}
+li:nth-of-type(2) span:nth-of-type(5) { 
+  /* JOUW CODE HIER */
+  
+}
+li:nth-of-type(2) span:nth-of-type(6) { 
+  /* JOUW CODE HIER */
+  
+}
+li:nth-of-type(2) span:nth-of-type(7) { 
+  /* JOUW CODE HIER */
+  
+}
+li:nth-of-type(2) span:nth-of-type(8) { 
+  /* JOUW CODE HIER */
+  
+}
+li:nth-of-type(2) span:nth-of-type(9) { 
+  /* JOUW CODE HIER */
+  
+}
+
+
+
+
+
+/**************/
+/* BLEND MODE */
+/**************/
+
+li:nth-of-type(3) {
+  /* JOUW CODE HIER */
+  
+  
+}
+
+
+/* beide spans */
+li:nth-of-type(3) span {
+  /* JOUW CODE HIER */
+  
+  
+}
+
+
+/* eerste span */
+li:nth-of-type(3) span:nth-of-type(1) {
+  /* developer.mozilla.org/en-US/docs/Web/CSS/font-variation-settings */
+  /* de naam ("wdth") en mogeljke waarden vind je bij het font */
+  /* font info: fonts.google.com/specimen/Tektur/tester */
+
+  /* JOUW CODE HIER */
+  
+  
+}
+
+
+/* tweede span */
+li:nth-of-type(3) span:nth-of-type(2) {
+  /* JOUW CODE HIER */
+  
+  
+}
+
+
+
+
+
+/*********/
+/* HOWDY */
+/*********/
+
+/* font info: fonts.google.com/specimen/Tektur/tester */
+/* bg img: harmonica.jpg */
+
+/* JOUW CODE HIER */
+
+
+
+
+
+/************/
+/* KABLAMMO */
+/************/
+
+/* font info: fonts.google.com/specimen/Kablammo/tester */
+
+/* JOUW CODE HIER */
+
+
+
+
+
+/*********/
+/* WONKY */
+/*********/
+
+/* font info: fonts.google.com/specimen/Shantell+Sans/tester */
+/* bg img: yakushima.jpg */
+
+/* JOUW CODE HIER */
+
+
+
+
+
+/***************/
+/* KABLAMMO v2 */
+/***************/
+
+/* font info: fonts.google.com/specimen/Kablammo/tester */
+
+/* JOUW CODE HIER */
+
+
+
+
+
+/***********/
+/* CIRKELS */
+/***********/
+
+/* JOUW CODE HIER */
+

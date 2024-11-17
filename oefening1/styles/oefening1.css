@@ -1,0 +1,109 @@
+/*******************************/
+/* CODE VOOR HET EERSTE BLOKJE */
+/*******************************/
+
+/* JOUW @FONT-FACE CODE HIER */
+@font-face {
+  /* regular / 400 */
+
+}
+
+@font-face {
+  /* bold / 700 */
+
+}
+
+
+li:first-of-type {
+  padding:1em;
+  overflow:auto;
+}
+
+li:first-of-type h2 {
+  /* JOUW CODE HIER */
+  
+
+}
+
+li:first-of-type p {
+  /* JOUW CODE HIER */
+  
+
+}
+
+/* hiermee selecteer je de eerste letter van de p in het eerste blokje */
+li:first-of-type p::first-letter {
+  /* JOUW CODE HIER */
+
+  
+}
+
+
+
+
+
+/*******************************/
+/* CODE VOOR HET TWEEDE BLOKJE */
+/*******************************/
+
+/* JOUW @FONT-FACE CODE HIER */
+@font-face {
+  
+}
+
+
+/* hiermee selecteer je het tweede blokje */
+li:nth-of-type(2) {
+  /* custom properties voor tweede blokje */
+  --color:hsl(0 0% 100%);
+  --background:rgb(0 24 54);
+  --shadow:Cyan;
+  
+  /* met onderstaande regels staat de tekst in het midden */
+  /* en elk woord op een nieuwe regel */
+  display:grid;
+  grid-auto-columns:min-content;  
+  place-content:center;
+  text-align:center;
+  
+  background-color:var(--background);
+}
+
+li:nth-of-type(2) h2 {
+  margin:0;
+  color:var(--color);
+
+  /* JOUW CODE HIER */
+
+  
+}
+
+
+
+
+
+/******************************/
+/* CODE VOOR HET DERDE BLOKJE */
+/******************************/
+
+/* JOUW @FONT-FACE CODE HIER */
+@font-face {
+  
+}
+
+li:nth-of-type(3) {
+  /* custom properties voor derde blokje */
+  --color:white;
+  --background:rgb(230 127 138);
+  --shadow:rgb(0 0 0 / .75);
+
+  /* JOUW CODE HIER */
+  
+
+}
+
+li:nth-of-type(3) h2 {
+  /* JOUW CODE HIER */
+
+  
+}

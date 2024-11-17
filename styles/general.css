@@ -1,0 +1,134 @@
+/************************/
+/* SAIRA SEMI-CONDENSED */
+/************************/
+@font-face {
+  font-family: "Saira Semi Condensed";
+  src: url("../fonts/Saira_SemiCondensed-Light.ttf");
+  font-weight: 300;
+}
+
+
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	color-scheme:light;
+	
+	--tmplt-color:#333;
+	--tmplt-color-background:#ccc;
+	
+	--tmplt-color-blokje:#333;
+	--tmplt-color-blokje-background:#fff;
+}
+
+@media (prefers-color-scheme:dark) {
+	:root {
+		color-scheme:dark;
+		
+		--tmplt-color:#bbb;
+		--tmplt-color-background:#333;
+	}
+}
+
+
+
+
+
+/**********************************/
+/* BODY & HEADER & MAIN & BLOKJES */
+/**********************************/
+body {
+  color:var(--tmplt-color);
+  background-color:var(--tmplt-color-background);
+}
+
+
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root * {
+  --tmplt-number-blokjes:3;
+
+  --tmplt-size-whitespace:clamp(1.5rem, 5vw, 2rem);
+	--tmplt-size-blokje:min(calc(12em + 8vw), 17.5em);
+	
+  --tmplt-size-maxwidth:calc(var(--tmplt-size-blokje, 15em) * 3 + var(--tmplt-size-whitespace) * 2);
+  --tmplt-size-intro-maxwidth:26em;
+}
+
+
+
+
+
+/**********************************/
+/* BODY & HEADER & MAIN & BLOKJES */
+/**********************************/
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+html {
+	scroll-behavior:smooth;
+}
+
+body {
+	margin:0;
+	padding:var(--tmplt-size-whitespace);
+
+	display:grid;
+	gap:var(--tmplt-size-whitespace);
+}
+
+/* HEADER */
+header h1 {
+  margin:0 0 calc(var(--tmplt-size-whitespace) * .25);
+  line-height:1.1em;
+	font-size:3em;
+	font-family:"Saira Semi Condensed", sans-serif;
+	font-weight:300;
+}
+
+
+
+
+
+/**************************************/
+/* HEADER & MAIN & DETAILS & SECTIONS */
+/**************************************/
+
+header,
+main {
+	width:100%;
+	max-width:var(--tmplt-size-maxwidth);
+	margin:0 auto;
+}
+
+
+
+
+
+/***********/
+/* BLOKJES */
+/***********/
+main > ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+
+	display:grid;
+	grid-template-columns:repeat(auto-fill, minmax(min(var(--tmplt-size-blokje), 100%), 1fr));
+	gap:var(--tmplt-size-whitespace);
+}
+
+main > ul > li {
+	position: relative;
+  aspect-ratio:1/1;
+  color:var(--tmplt-color-blokje);
+	background-color:var(--tmplt-color-blokje-background);
+}
