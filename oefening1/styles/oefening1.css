@@ -5,12 +5,14 @@
 /* JOUW @FONT-FACE CODE HIER */
 @font-face {
   /* regular / 400 */
-
+font-family:"expletus-regular";
+src: url(/oefening1/fonts/ExpletusSans-Regular.ttf);
 }
 
 @font-face {
   /* bold / 700 */
-
+  font-family: "expletus-bold";
+  src: url(/oefening1/fonts/ExpletusSans-Bold.ttf);
 }
 
 
@@ -21,21 +23,30 @@ li:first-of-type {
 
 li:first-of-type h2 {
   /* JOUW CODE HIER */
-  
+  font-family: "expletus-bold";
+  font-size: 25px;
+  font-weight: 700;
+line-height: 1.5;
 
 }
 
 li:first-of-type p {
   /* JOUW CODE HIER */
-  
+  font-family:"expletus-regular" ;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+
 
 }
 
 /* hiermee selecteer je de eerste letter van de p in het eerste blokje */
 li:first-of-type p::first-letter {
   /* JOUW CODE HIER */
-
-  
+  font-family: "expletus-bold";
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.5;
 }
 
 
@@ -48,7 +59,8 @@ li:first-of-type p::first-letter {
 
 /* JOUW @FONT-FACE CODE HIER */
 @font-face {
-  
+  font-family:"mont";
+  src:url(/oefening1/fonts/Montserrat-Thin.ttf);
 }
 
 
@@ -75,7 +87,18 @@ li:nth-of-type(2) h2 {
 
   /* JOUW CODE HIER */
 
-  
+  font-family: "mont";
+  font-size: 35px;
+  font-weight: 100;
+ line-height: 1; 
+ text-transform: uppercase;
+ color: var(--color);
+ text-shadow: 
+   0 0 .1em  var(--shadow),
+   0 0 .2em var(--shadow),
+   0 0 .3em var(--shadow);
+ background-color: var(--background);
+
 }
 
 
@@ -88,7 +111,9 @@ li:nth-of-type(2) h2 {
 
 /* JOUW @FONT-FACE CODE HIER */
 @font-face {
-  
+  font-family:"saira";
+  src: url(/oefening1/fonts/Saira_Condensed-Bold.ttf);
+
 }
 
 li:nth-of-type(3) {
@@ -99,11 +124,27 @@ li:nth-of-type(3) {
 
   /* JOUW CODE HIER */
   
+  background-color: var(--background);
+  color: var(--color);
+  display:grid;
+  grid-auto-columns:min-content;  
+  place-content:center;
+  text-align:center;
 
 }
 
 li:nth-of-type(3) h2 {
   /* JOUW CODE HIER */
+  font-family: "saira";
+  font-size: 2.5em;
+  font-weight: 100;
+ line-height: 1; 
+ text-transform: uppercase;
+ text-shadow: 
+   4px 4px var(--shadow);
+ letter-spacing: 4px;
+ transform: skewY(350deg);
 
-  
+
+
 }
